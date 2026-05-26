@@ -42,11 +42,12 @@ run
 ### Phase 3: Incident Log Analysis & Attribution
 Switching to the defensive asset, the Windows Event Viewer was leveraged to inspect the Security logs. The identity and origin of the malicious traffic were fully correlated:
 - **Event ID 4625 (Audit Failure):** Tracked rapid, unauthorized authentication failures explicitly mapped to **Source Network Address:** `10.0.2.100`.
-- **Event ID 4740 (Account Locked Out):** Confirmed the automatic triggers of endpoint security controls to protect the user profile integrity.
 
 *![Windows Event Viewer Logs](images/Windows10Victim-First.png)*  
 
-*![Windows Event Viewer Logs](images/event-viewer.png)*  
+- **Event ID 4740 (Account Locked Out):** Confirmed the automatic triggers of endpoint security controls to protect the user profile integrity.
+
+*![Windows Event Viewer Logs](images/Windows10VictimSecond.png)*  
 
 
 ### Phase 4: Incident Response & Network Containment
