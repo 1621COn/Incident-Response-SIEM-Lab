@@ -54,7 +54,7 @@ To mitigate the threat and isolate the active threat actor, an explicit host-bas
 New-NetFirewallRule -DisplayName "Block Kali Attacker" -Direction Inbound -RemoteAddress 10.0.2.100 -Action Block
 ```
 *![Threat Containment Blocks](images/Kali-Attack-2026-05-26-18-23-34.png)*  
-*(Note: Replace this placeholder text with your screenshot showing a frozen Kali terminal terminal failing to ping 10.0.2.50 after deploying the block rule)*
+
 
 ---
 
