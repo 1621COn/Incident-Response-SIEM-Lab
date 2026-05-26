@@ -45,7 +45,9 @@ Switching to the defensive asset, the Windows Event Viewer was leveraged to insp
 - **Event ID 4740 (Account Locked Out):** Confirmed the automatic triggers of endpoint security controls to protect the user profile integrity.
 
 *![Windows Event Viewer Logs](images/event-viewer.png)*  
-*(Note: Replace this placeholder text with your screenshot of Event Viewer highlighting Event ID 4625 showing the Kali IP and Event ID 4740)*
+
+*![Windows Event Viewer Logs](images/event-viewer.png)*  
+
 
 ### Phase 4: Incident Response & Network Containment
 To mitigate the threat and isolate the active threat actor, an explicit host-based ingress drop rule was executed via administrative PowerShell. This instantly severed the attacker's connection and froze their network requests.
