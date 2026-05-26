@@ -44,7 +44,7 @@ Switching to the defensive asset, the Windows Event Viewer was leveraged to insp
 - **Event ID 4625 (Audit Failure):** Tracked rapid, unauthorized authentication failures explicitly mapped to **Source Network Address:** `10.0.2.100`.
 - **Event ID 4740 (Account Locked Out):** Confirmed the automatic triggers of endpoint security controls to protect the user profile integrity.
 
-*![Windows Event Viewer Logs](images/event-viewer.png)*  
+*![Windows Event Viewer Logs](images/Windows 10 Victim-2026-05-26-18-08-40.png)*  
 
 *![Windows Event Viewer Logs](images/event-viewer.png)*  
 
